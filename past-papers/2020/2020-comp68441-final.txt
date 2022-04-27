@@ -105,6 +105,7 @@ Contribution to potential likelihood [25-125 words]
 NOT ANSWERED
 Contribution to potential impact [25-125 words]
 NOT ANSWERED
+参考:
 
 2. 
 Instance [5-10 words]
@@ -155,6 +156,25 @@ Contribution to potential likelihood [25-125 words]
 NOT ANSWERED
 Contribution to potential impact [25-125 words]
 NOT ANSWERED
+
+
+参考:
+•	Security through obscurity - Press being shut down and not being allowed entry/access into critical areas. Trying to shut down the footage of the accident after they found out about the footage of the accident existed
+•	Motive to cover up security risks - Investors behind power plant didn’t want it being offline and making no revenue. New plant seeking approval to open up very soon, knew a security risk with current plant would certainly trigger checks into the new plant
+•	Insider threat - In this case, the insider (jack) was actually the good guy, but we still see the same traits of an insider threat. Someone on the inside being converted to another way of thinking/being coerced into helping someone outside, and using their access inside to help the outsiders get in.
+•	Security measures inside facility - One security measure that was in place was the deadlock doors outside of the control room. They could not be opened from the outside, only the inside. In the case of this movie, it allowed the good guys to win, but in the case of an attacker, would allow them to have access to the control room while also locking everyone else out. Makes the system vulnerable to insiders and compromised people. 
+•	Lack of redundancy - The accident happened as a result of human error in reading the instruments, which then prompted the wrong response from the staff inside the control room. There was a lack of redundancies that allowed this to happen, which should have kicked in when the system detected the water level going too low.  
+•	Personal Assets - each character is driven by what they find important. Reporter woman Kimberly is driven by journalistic integrity and revealing the truth. Supervisor Godell is driven by keeping the plant itself safe, and making sure it’s secure. Chairman That Looks Like Stephen Fry is driven by making the most money possible. Plant Overseer is driven by keeping his boss happy. The person who did the x rays of the components of the reactor was motivated by money and took shortcuts onaly making (i think it was 2 from memory) xrays (self interest, not sure if this is seperate) 
+•	Lack of Just Culture - one of the employees of the plant (Ted) gets all defensive when Jack questions him on what he thought was going on during the emergency. Ted (understandably) thinks that the investigation is just looking for a scapegoat, someone to blame & fire for the accident, so is wary of saying anything that can be used against him. This is the opposite of a Just Culture of shared/open accountability, and is what happens when investigations are more focused on finding people to punish rather than on preventing the problem from happening again.
+
+隐藏式保全-媒体被关闭，不允许进入/进入关键区域。在他们发现事故录像存在后试图关闭事故录像
+•掩盖安全风险的动机——发电厂背后的投资者不希望它下线后没有收入。新工厂寻求批准，很快开放，知道当前工厂的安全风险肯定会触发对新工厂的检查
+•内部威胁——在这种情况下，内部(jack)实际上是好人，但我们仍然看到内部威胁的相同特征。内部的人被转变成另一种思维方式/被强迫帮助外部的人，并利用他们在内部的权限帮助外部的人进入。
+•设施内部的安全措施-其中一项安全措施是控制室外面的死锁门。它们无法从外面打开，只能从里面打开。在这部电影中，它允许好人获胜，但在攻击者的情况下，它允许他们进入控制室，同时将其他人锁在外面。让系统容易受到内部人士和受伤害人士的攻击。
+•缺乏冗余——事故的发生是由于人为错误读取仪器，导致控制室内的工作人员做出了错误的反应。由于缺乏冗余，导致了这种情况的发生，当系统检测到水位过低时，就应该启动。
+•个人资产——每个角色都被他们认为重要的东西所驱动。女记者金伯利以新闻的正直和揭露真相为动力。主管戈德尔的动力是确保核电站本身的安全，确保它是安全的。看起来像斯蒂芬·弗莱(Stephen Fry)的董事长是为了尽可能多赚钱。让老板高兴是工厂监工的动力。那个给反应堆组件做x光的人是受钱的驱使，走捷径，只做了x光(我记得是2张)(自我利益，不确定这是不是独立的)
+•缺乏公正的文化——当杰克问工厂的一名员工(泰德)他认为在紧急情况下发生了什么时，他变得非常自卫。泰德(可以理解)认为调查只是在寻找替罪羊，有人要为事故负责，所以他小心翼翼地避免说任何可能对他不利的话。这与共享/公开问责的公正文化是相反的，当调查更专注于寻找惩罚对象，而不是防止问题再次发生时，就会发生这种情况。
+
 
 === Question 2 ===
 (15 Marks)
@@ -259,14 +279,16 @@ Justify your answer: [60-300 words]
 
 === Question 5 ===
 This question involves devising (but not executing) a way to effectively and realistically perform social engineering on UNSW's CISO.  You must not do anything illegal rude disrespectful or invasive in the real world in preparing for this question, or inconvenience or annoy or alarm the CISO or anyone who works for or with or knows them.  Most importantly you are not to invade the privacy of their family or personal life in any way.  You are restricted to looking at publicly available information and otherwise using entirely passive methods.
-
+CISO: 首席信息安全官(Chief Information Security Officer)
 What is the name of the UNSW CISO? [0-2 words]
- NOT ANSWERED 
+Derek Winter
 Name one significant (but not personal or intrusive) thing about the UNSW CISO you learned in your recon? [0-75 words]
  NOT ANSWERED 
 Clearly explain a simple and safe social engineering strategy an an attacker could follow to have the CISO visit a webpage they control.  (To be clear - don't actually do this in the real world - you could face charges and/or be expelled from uni).  Assume the attacker has roughly the same access and resources that you yourself have available to you. [80-400 words]
  NOT ANSWERED 
-
+ 
+ 社会工程攻击资料:
+https://digitalguardian.com/blog/social-engineering-attacks-common-techniques-how-prevent-attack
 
 All marks for the strategy response, none for the recon responses. You'll be assessed on how realistic, specific, simple, effective, non-risky, time consuming (sooner is better than later!) your strategy is, and how likely the attacker is to be successful.
 
@@ -295,20 +317,24 @@ Having two layers of encryption should provide more security than just having on
 
 Should we use Method B next year?  (yes/no)  [1 word]
  NOT ANSWERED 
+ 
+NO
 
 Why? [60-300 words]
  NOT ANSWERED 
 
-
+Is double encryption RSA more secure?
+For RSA. Using plain, paddingless RSA, double encrypting with the same key wouldn't increase security at all, since composing RSA encryption results in a single RSA encryption with a combined key.
+https://www.quora.com/Is-double-encrypting-with-AES-safe
 
 6.3  Puzzle
 One of the rabbits in the accompanying file Rabbit.png doesn't have a twin.  Can you spot it?  OK you can't get a uni degree for that.  But suppose the problem was made a bit harder and scaled up in some way(s). eg more rabbits, more features, triplets not twins, ...  
 
 Describe how you solved the problem (or how you would solve the scaled up problem if that would be different) [60-300 words]
- NOT ANSWERED 
+做一个表格，进行统计分析
 
 OK which bunny was it? [5-25 words]
- NOT ANSWERED 
+第四行第五列
 
 (PS I love the work of the creator of this puzzle - you could spend your post exam isolation time basking in his awesome website at http://thedudolf.blogspot.com/)
 
@@ -331,7 +357,14 @@ What is the switchover value?  How small could X be and have it be possible that
 NOT ANSWERED
 Justify your answer, include calculations [75-750 words]
 NOT ANSWERED
-
+警方征求了你的意见。一家公司正在为他们的智能手机提供一款应用程序，如果他们将手机的摄像头对准某人，就能立即识别他们，并显示相应的驾驶执照号码。每个州已经友好地向警方实时提供所有澳大利亚驾照的照片和号码。
+显然，这一数据量太大，无法下载到警方的手机上，因此该公司提供的服务是，通过运行一个超级秘密的人工智能训练算法，每晚分析澳大利亚的一组照片。该算法生成一个数据库，为每个人存储某种类型的面部散列和他们的驾照号码。这个数据库非常小，据说有X个字节，最新版本每天都可以下载到手机上。
+警察问你这听起来是否合理?是否有可能数据库的大小是X字节?
+假设X是10,000,000。
+如果数据库只有10兆字节，应用程序是否有可能像承诺的那样工作?[一个字-是或否]
+不回答
+证明你的答案，包括计算[25-125字]
+不回答
 
 === Question 8 ===
 A friend tells you about a problem her dad has, and asks you for your advice.
@@ -347,7 +380,19 @@ NOT ANSWERED
 
 Explain your reasoning behind making these recommendations. [160-800 words]
 NOT ANSWERED
+一个朋友告诉你她爸爸的问题，并向你寻求建议。
 
+他是一名退休医疗专家，一直在公开发表批评其他一些国家应对冠状病毒大流行的言论，他在网上有一小部分粉丝。几天前，他醒来时发现在他的社交媒体账户上有以他的名字发布的侮辱性帖子——但这些帖子不是他发的。与此同时，他的网站被一些民族主义内容和言论破坏，威胁他说有关该国的谎言。
+
+他很担心自己被黑客攻击了。
+
+他该怎么办?买新电脑吗?从头开始?
+
+列出你对他应该做什么的建议?[100 - 500字]
+不回答
+
+解释你提出这些建议的理由。(160 - 800字)
+不回答
 
 ****************************************************************
 ******************* You have reached 8 Questions ***************
@@ -384,7 +429,7 @@ Briefly justify your answer [60-300 words]
  NOT ANSWERED 
 
 
-
+https://news.ycombinator.com/item?id=4087455
 
 
 === Question 10 ===
@@ -393,7 +438,7 @@ Lachlan and I are going to use going to use Merkle Puzzles to securely discuss t
 {{{
    ...
    ...
-   This is puzzle two hundred thousand and seventeen, the key is jHg4t5ct&rqSg
+   200，017This is puzzle two hundred thousand and seventeen, the key is jHg4t5ct&rqSg
    This is puzzle two hundred thousand and eighteen, the key is 3pojygv3x%wD?
    ...
    ...
@@ -406,37 +451,37 @@ YES It would be suitable to use this
 
 10.1 One Time Pad 
 Suitable? [1 word, YES or NO as described above]
- NOT ANSWERED 
+YES
 Why? [30-150 words]
  NOT ANSWERED 
  
  
 10.2 Ceasar Cipher
 Suitable? [1 word, YES or NO as described above]
- NOT ANSWERED 
+NO
 Why? [30-150 words]
- NOT ANSWERED 
+过于简单
 
 
 10.3 Vigenere
 Suitable? [1 word, YES or NO as described above]
- NOT ANSWERED 
+NO
 Why? [30-150 words]
- NOT ANSWERED 
+依然可破解
 
 
 10.4 RSA (encrypted using a 512 bit public key)
 Suitable? [1 word, YES or NO as described above]
- NOT ANSWERED 
+NO
 Why? [30-150 words]
- NOT ANSWERED 
+https://zhuanlan.zhihu.com/p/339263702 
 
 
 10.5 SHA256
 Suitable? [1 word, YES or NO as described above]
- NOT ANSWERED 
+NO
 Why? [30-150 words]
- NOT ANSWERED 
+哈希是不可逆的
 
 
 
@@ -469,13 +514,15 @@ The President is horrified and askes you "Is it likely there are other catastrop
 Draft your reply (use bullet points and keep it brief - the US President is very busy!)
 
 Is it likely? [1-10 words]
- NOT ANSWERED 
+YES
  
 How can this be? [25-125 words]
- NOT ANSWERED 
+任何事件都有可能发生，即便这是小概率事件。
 
 What can be done? [100-500 words]
- NOT ANSWERED 
+标准化
+安全检查
+普及法律
 
 
 === Question 12 ===
