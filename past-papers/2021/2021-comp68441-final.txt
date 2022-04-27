@@ -116,7 +116,7 @@ F) Ensuring systems comply with security checklists like the ASD Essential 8
 
 
 [Your answer should be one uppercase letter A-F]
-NOT ANSWERED
+我猜C或者D吧
 
 === Question A2 === [5 Marks]
 
@@ -201,9 +201,17 @@ Below is a typical TLS Handshake:
 
 To what extent does establishing a TLS session in this way help prevent phishing?  Briefly justify your answer.  [20-100 words]
 NOT ANSWERED
+- the SSL certificate is sent the client upon initialising the session, this allows for verfication of the server.
+- the decryption and encryption of the client random with the private key allows for verification of the user
+ 
+This all together allows people to know the other end is secure and that they are not being duped by someone from a phising attack.
+
 
 What is the point of the third step "Authentication" above?  What problem is it preventing?  [20-100 words]
 NOT ANSWERED
+参考别人的：
+The client is not just depending on the work of the server, they are confirming the word of the server with a third party so as to ensure they are safely connecting with the right server.
+It is preventing the server from holding all the power in the confirmation of identities and preventing the user from struggling to confirm if the server is safe.
 
 
 
@@ -212,12 +220,12 @@ NOT ANSWERED
 
 This question relates to the photographed scene in the image: CarSnapshot.png
 Answer the questions below and briefly describe how you worked out the answers.
-
+查看图片exif
 What day of the week was it (eg Monday-Sunday)?  [1 Word]
- NOT ANSWERED
+Monday
 
 How did you work this out? [5-25 words]
- NOT ANSWERED
+https://www.google.com/search?q=2020.12.7+what+day+austrlia&sxsrf=APq-WBtHrEmduVq3ItQweM8DejZMxnD4MQ:1651052583567&ei=JxBpYr2AIuvgz7sP8u2zuA4&ved=0ahUKEwj9r_6V-rP3AhVr8HMBHfL2DOcQ4dUDCA4&uact=5&oq=2020.12.7+what+day+austrlia&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCEQCjoHCAAQRxCwA0oECEEYAEoECEYYAEoECEcYA1C0CFiLG2DLHGgBcAF4AIABhwGIAdkIkgEDMC45mAEAoAEByAEKwAEB&sclient=gws-wiz-serp
 
 Was it Morning, Afternoon, or Nighttime? [1 Word]
  NOT ANSWERED
@@ -236,7 +244,31 @@ How did you work this out? [5-25 words]
 
 How did you work this out? [5-25 words]
  NOT ANSWERED
-
+ 
+ 参考别人的答案:
+What day of the week was it (eg Monday-Sunday)?  [1 Word]
+ Assuming metadata was not altered: Friday
+ 
+How did you work this out? [5-25 words]
+ Got the metadata from the exif command line tool: "Date/Time Original": " 2020 10 16 00 00 00.827+11 00" then searched up what day it was on google
+ 
+Was it Morning, Afternoon, or Nighttime? [1 Word]
+ Morning
+ 
+How did you work this out? [5-25 words]
+ Got the metadata from the exif command line tool: "Date/Time Original": " 2020 10 16 00 00 00.827+11 00" then searched up what day it was on google 
+ 
+ What two big letters were written on the front of the police car? [2 Letters]
+ MR
+ 
+How did you work this out? [5-25 words]
+ https://www.australianpolice.com.au/australian-police-vehicles/vehicle-bonnet-codes/ - so found what suburb it was first by google mapping different westpacs
+ 
+ What street sign(s) are hidden behind the man? [2-20 words]
+ stop sign
+ 
+How did you work this out? [5-25 words]
+ found the location on google maps
 
 
 === Question B4 ===
@@ -446,7 +478,17 @@ You have been asked carry out a form of root cause analysis - but rather than an
 Remember this is a root cause analysis - so don't simply identify the immediate proximate causes and/or actions of individuals, but instead keep asking "why" until you find the underlying fundamental organisational features which helped lead to success.
 
 List the four main underlying organisational features which led to the successful return of the astronauts which were revealed in the film (most important first) and briefly state for each the role it played and why you think it was a successful feature, and make a clear recommendation about how ASA can be set up and organised in order to ensure that it too will have that feature. [max 320 words in total]
+这个问题指的是电影《阿波罗13号》(Apollo13, 1983)中描述的情况和事件。
 
+场景:假设我们在电影中的世界和时间，电影中描述的事件大约是一个月前，而且是准确的。
+
+您:您是在建议ASA(新成立的“澳大利亚航天局”，将在未来12个月内成立)
+
+你们被要求进行一种根本原因分析——但不是分析事故发生的根本原因是什么，而是要求你们分析阿波罗13号任务成功的根本原因。ASA希望你们告诉他们促进宇航员安全返回的根本原因是什么。澳大利亚航天局渴望从这次事件中吸取教训，以便未来的澳大利亚宇航员自己也能在类似的问题中获得同样的成功。
+
+记住，这是一个根本原因分析——所以不要简单地识别直接的直接原因和/或个人的行为，而是不断地问“为什么”，直到你找到帮助你成功的潜在的基本组织特征。
+
+列出电影中揭示的导致宇航员成功返回的四个主要基本组织特征(最重要的第一个)，并简要说明每个特征所起的作用，以及为什么你认为它是一个成功的特征，并就如何建立和组织ASA提出明确的建议，以确保ASA也具有这一功能。[最多320字]
 
 1. [max 80 words in total]
 Cause:                NOT ANSWERED
@@ -482,6 +524,9 @@ Suggestion: Aim to spend around 30 minutes answering this question.
 
 
 You are the Chief Security Officer for a large law firm.  Law firms have a critical obligation to keep clients’ information, including communications with the client, confidential. Due to a global pandemic, all the lawyers in the firm need to work from home from tomorrow for an indefinite period. Today is the last day in the office. Write an email to the firm's lawyers setting out the most essential cyber security measures to take once they start working from home.
+你是一家大型律师事务所的首席安全官。律师事务所对客户的信息(包括与客户的沟通)负有保密的重要义务。
+由于全球大流行，事务所的所有律师从明天起必须无限期地在家工作。
+今天是办公室的最后一天。给该公司的律师们写一封电子邮件，列出他们开始在家工作后需要采取的最重要的网络安全措施。
 
 Write the actual body of email (don't worry about the greeting preamble or formal close, just the meat) [100-300 words]
 
