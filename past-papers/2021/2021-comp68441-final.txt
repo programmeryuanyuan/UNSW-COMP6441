@@ -107,8 +107,8 @@ This part consists of three 5 mark questions.  Answer ALL questions in this part
 
 Which of the following best describes "Security by Design" as we use the term in Security Engineering?
 
-A) Adopting well-known security tactics, and patterns (i.e. reusable techniques for achieving specific quality concerns)
-B) Applying formal software design principles to systems to make them more secure
+A) Adopting well-known security tactics, and patterns (i.e. reusable techniques for achieving specific quality concerns)错
+B) Applying formal software design principles to systems to make them more secure错
 C) Considering security from the outset when creating a system
 D) Expect attacks - Malicious attacks on software should be assumed to occur
 E) Following a security design standard like the ISM
@@ -123,7 +123,20 @@ NOT ANSWERED
 What is the RSA decryption key corresponding to the encryption key (n=55,e=23)?
 
 [Your answer should be in the form (n=55, d=x) where x is a number between 1 and 54]
-NOT ANSWERED
+55 = 5 * 55 = p * q
+M = (5-1) * (55-1) = 216
+D = the inverse of e mod M = Power[23,-1] mod 216 = 47
+https://www.wolframalpha.com/input?i2d=true&i=Power%5B23%2C-1%5D+mod+216
+
+Given 2 primes, p and q.
+Modulus N = p * q
+Euler Totient M = (p-1) * (q-1).
+ 
+The Encryption key e and M must be co-prime.
+The decryption key is the inverse of e mod M.
+ 
+Encryption message x: x^e mod N
+Decryption message y: y^d mod N
 
 
 === Question A3 === [5 Marks]
@@ -132,7 +145,13 @@ Suppose an attacker knows your password is 4 words joined together with no space
 
 On average how many bits of work will the attacker need to do to brute force your password using this list if checking a potential password takes 10 bits of work?
 [Your answer should be a number between 1 and 1,000,000]
-NOT ANSWERED
+
+Number of combinations of 4 word passwords = 5000 * 5000 * 5000 * 5000 ~= 2^50 passwords
+Work to check one password = 10 bits of work / password
+Work required to check all passwords = 2^50 * 2^10 = 2^60
+Average work (aka divide by 2) = 2^60 / 2^1 = 2^59
+
+ANS: 59
 
 
 {{{
