@@ -107,13 +107,14 @@ This part consists of three 5 mark questions.  Answer ALL questions in this part
 
 Which of the following best describes "Security by Design" as we use the term in Security Engineering?
 
-A) Adopting well-known security tactics, and patterns (i.e. reusable techniques for achieving specific quality concerns)
-B) Applying formal software design principles to systems to make them more secure
+A) Adopting well-known security tactics, and patterns (i.e. reusable techniques for achieving specific quality concerns)//wrong
+B) Applying formal software design principles to systems to make them more secure //wrong
 C) Considering security from the outset when creating a system
 D) Expect attacks - Malicious attacks on software should be assumed to occur
 E) Following a security design standard like the ISM
 F) Ensuring systems comply with security checklists like the ASD Essential 8
 
+//Security by design is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible through such measures as continuous testing, authentication safeguards and adherence to best programming practices.
 
 [Your answer should be one uppercase letter A-F]
 NOT ANSWERED
@@ -121,6 +122,21 @@ NOT ANSWERED
 === Question A2 === [5 Marks]
 
 What is the RSA decryption key corresponding to the encryption key (n=55,e=23)?
+
+55 = 5*11 = p*q
+M = 4*10 = 40
+23 MOD 40 = 23
+//
+Given 2 primes, p and q.
+Modulus N = p * q
+Euler Totient M = (p-1) * (q-1).
+
+The Encryption key e and M must be co-prime.
+The decryption key is the inverse of e mod M.
+
+Encryption message x: x^e mod N
+Decryption message y: y^d mod N
+//
 
 [Your answer should be in the form (n=55, d=x) where x is a number between 1 and 54]
 NOT ANSWERED
@@ -131,6 +147,32 @@ NOT ANSWERED
 Suppose an attacker knows your password is 4 words joined together with no spaces all in lowercase.  The attacker also has a copy of the list of the 5,000 most commonly used words in Australian tweets and it turns out that all of your words are in this list.
 
 On average how many bits of work will the attacker need to do to brute force your password using this list if checking a potential password takes 10 bits of work?
+
+//
+Number of combinations of 4 word passwords = 5000 * 5000 * 5000 * 5000 ~= 2^50 passwords
+Work to check one password = 10 bits of work / password
+Work required to check all passwords = 2^50 * 2^10 = 2^60
+Average work (aka divide by 2) = 2^60 / 2^1 = 2^59
+
+ANS: 59
+
+其它例题:
+1.	Think about the main variables in the question
+[A-Z + a-z][a-z][a-z][a-z][a-z][a-z]
+
+2.	Make the appropriate calculations to find a approx. number.
+52 x 26 x 26 x 26 x 26 x 26 = ~617 million
+
+3.	Go to the nearest number which is a power of 2 + convert to power of 2
+617 million= ~512 million(closest power of 2 value)
+1 million = 22
+512 = 9
+Therefore, 20 + 9 = 29 bits of work
+
+4.	To find the average case bits of work, divide by 2
+29 bits of work / 2 = 28 bits of work
+
+
 [Your answer should be a number between 1 and 1,000,000]
 NOT ANSWERED
 
@@ -147,12 +189,26 @@ Answer 5 of the following 6 questions (do NOT answer more or only your first 5 a
 A friend gave their 12 year old daughter a laptop for her birthday - she needs one for school next year but your friend wanted to get her a really fancy one as a surprise.  It has some strong security features, including full hard disk encryption and optional voice recognition authentication.  They ask your advice about whether she (the daughter) should activate the biometric voice recognition MFA feature.  If the feature on then on login (and once a day after that for as long as the machine is left logged in) the machine requires the user to authenticate themselves using a spoken voice code as well as typing in their password.
 
 What is your recommendation?  Should the daughter turn this feature on?
+
 YES/NO  [Delete the un-needed response]
 
+//NO.
+
 Briefly give reasons explaining your recommendation including any assumptions you have made [15-75 words]
+//开放问题
+
+Web pages I read:
+https://www.1kosmos.com/biometric-authentication/voice-authentication/
+
+
 NOT ANSWERED
 
 Are there any plausible circumstances under which you would have given the opposite YES/NO answer?  If so explain them and your reasons, or if not then explain why not. [15-75 words]
+
+YES. 
+https://www.1kosmos.com/biometric-authentication/voice-authentication/
+https://blog.bio-key.com/pros-and-cons-of-using-voice-biometrics-as-2fa
+https://www.idrnd.ai/5-reasons-to-make-biometrics-part-of-multi-factor-authentication/
 NOT ANSWERED
 
 
@@ -224,7 +280,7 @@ How did you work this out? [5-25 words]
 
 This question involves devising a way to effectively and realistically perform social engineering on a former world leader (still living).  For example you could pick Donald Trump, Malcome Turnbull or Mahathir bin Mohamad for example.  You must not do anything illegal rude disrespectful or invasive in the real world in preparing for this question, or inconvenience or annoy or alarm your selected target or anyone who works for or with them or knows them.  Most importantly you are not to invade the privacy of their family or personal life in any way.  You are restricted to looking at publicly available information and using entirely passive methods.
 
-PS Please write the answer in English even if the social eeningering attack might not be
+PS Please write the answer in English even if the social engineering attack might not be
 
 The exam question:
 
