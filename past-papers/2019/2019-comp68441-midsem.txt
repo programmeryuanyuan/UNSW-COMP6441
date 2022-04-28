@@ -211,11 +211,11 @@ Suppose your company has been hit by a ransomware attack.  What is the most like
 
 On average how many hashes would be required to succeed in each of the following attacks against SHA-256? You may assume SHA-256 has not yet been broken.  Write your answer to the nearest power of 2 eg if you think the answer is 250 enter "8" as your answer (since 2^8 is 256)
 
-Preimage: 2^ _____ hashes
+Preimage: 2^ _____ hashes  8
 
-Second preimage: 2^ ______ hashes
+Second preimage: 2^ ______ hashes  8
 
-Collision:  2^ _____ hashes
+Collision:  2^ _____ hashes   4
 
 
 === Question 10 ===
@@ -234,11 +234,11 @@ Lachlan and I are going to use going to use Merkle Puzzles to securely discuss t
 What cipher would be best to use to encrypt the mini-messages?
 
 .[A] One Time Pad
-.[B] Ceasar
-.[C] Vigenere
+.[B] Ceasar 太弱
+.[C] Vigenere 有可能破解
 .[D] RSA 512 bit modulus
-.[E] RSA 2048 bit modulus
-.[F] AES 256
+.[E] RSA 2048 bit modulus 不可能 加密速度太慢
+.[F] AES 256 快且没有明显安全漏洞
 
 
 === Question 11 ===
