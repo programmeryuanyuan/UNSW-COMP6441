@@ -37,15 +37,26 @@ This part is worth 39 marks and consists of 13x3 mark questions.
 === Question 0 ===
 (3 Marks)
 
-You are setting password policy for your company.  What is the best policy according to NIST?
+You are setting password policy for your company.  What is the best policy according to NIST? C D
 
- .[A] Users must change password every 6 months
- .[B] Require passwords to satisfy structural rules such as "at least one uppercase letter, one digit, and one non-alphanumeric symbol"
+ .[A] Users must change password every 6 months错
+ .[B] Require passwords to satisfy structural rules such as "at least one uppercase letter, one digit, and one non-alphanumeric symbol"错
  .[C] Passwords must not be on a blacklist of common passwords
  .[D] Passwords must be of a minimum length
- .[E] Use a set of personal questions as challenges rather than passwords eg "What was the name of your first teacher"
+ .[E] Use a set of personal questions as challenges rather than passwords eg "What was the name of your first teacher"错
  .[F] Generate the password randomly for the user and don't allow them to change it.
 
+What are the NIST password requirements?
+Set an 8-character minimum length.
+Change passwords only if there is evidence of compromise.
+Screen new passwords against a list of known compromised passwords.
+Skip password hints and knowledge-based security questions.
+Limit the number of failed authentication attempts.
+What are the NIST password recommendations?
+Set the maximum password length to at least 64 characters.
+Skip character composition rules as they are an unnecessary burden for end-users.
+Allow copy and paste functionality in password fields to facilitate the use of password managers.
+Allow the use of all printable ASCII characters as well as all UNICODE characters (including emojis).
 
 === Question 1 ===
 (3 Marks)
@@ -64,6 +75,12 @@ If it takes 8 bits of work to test if one number divides into another how many b
  .[G] 70-79 bits of work
  .[H] 80 or more bits of work
 
+20 * 2x10^18 * 2x10^18 = 8 * 10^37
+8 * 10^37 ~= 2^126
+8 bits of work to test if one number divides into another
+2^126 * 2^3 = 2^129 bits of work 
+On average,
+2^129 / 2 = 2^128 bits of work 
 
 === Question 2 ===
 (3 Marks)
