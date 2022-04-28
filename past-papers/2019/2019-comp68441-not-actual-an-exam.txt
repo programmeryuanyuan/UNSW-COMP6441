@@ -217,7 +217,12 @@ _____________________________
 _____________________________
 _____________________________
 
- 
+ •	7: Protocol uses unbroken 100-bit crypto hash function
+•	100-bit hash function -> 2^100 bits of work to find a collision naturally, 2^50 using birthday attack
+•	SHA-1 is a 160-bit hash function, and is considered broken (vulnerable to collision attacks)
+•	Note this isn’t because SHA-1 is a 160-bit function - someone just managed to generate a “fast cracker” (still takes like a few thousand GPU-years)
+•	Therefore, we could simply break this particular function, or try and perhaps subvert it (depends on the question)
+
 
 === Question A.8 ===
 Something about public key cryptography
@@ -228,8 +233,12 @@ REDACTED
 
 Justify your answer
 ___________________________________________
-
- 
+Public key Cryptography
+•	Basically, there’s a public key and a private key
+•	Public key (K+) is used by anyone to encrypt a message, therefore must be known to everyone. Private key (K-) decrypts the key, this must be kept secret. 
+•	It works both ways: 
+•	Encrypt with K+(m) ----> Decrypt with K-(K+(m)) = m, OR 
+•	Encrypt with K-(m) -----> Decrypt with K+(K-(m)) = m
 
 === Question A.9 ===
 
