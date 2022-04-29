@@ -65,6 +65,16 @@ Question about one of the CIA properties
 
 _________________________________________
 _________________________________________
+CIA properties
+	Confidentiality: ensuring that only authorised people can access info
+	Usually achieved through encryption algos
+•	Integrity: info isn’t modified in transit
+	Usually achieved through hashing algos
+•	Authentication: only parties with proper authority can access info
+	Tbh this one is kinda dumb (most people say avaliability or smth)
+	The other 2 already might imply this
+	There’s probably a better expansion. Help pls
+•	Non-Repudiation: cannot deny that info that was sent
 
 
 === Question A.1 ===
@@ -146,6 +156,34 @@ ______________________
 ______________________
 ______________________
 ______________________
+Socially Engineer UNSW’s Deputy Vice-Chancellor (Academic)
+•	“Illegal activities” not allowed? Fraud, Impersonation, social engineering (not illegal)
+•	Name: Professor Merlin Crossley
+•	Email: m.crossley@unsw.edu.au
+•	Primary school: mount view primary school victoria (current principal: Glen Butler, mount.view.ps@edumail.vic.gov.au)
+•	DOB estimate 1964 (age 55) (https://en.wikipedia.org/wiki/Queen%27s_College_(University_of_Melbourne))
+•	UNSW Site: https://www.unsw.edu.au/about-us/governance/management-board/deputy-vice-chancellor-academic
+•	Facts:
+•	Molecular biologist, specialising in human genetic diseases
+•	Serves on Trust of Australian Museum (the museum that’s currently under refurbishment)
+•	Deputy Chair on Board of Aus Science Media Centre
+•	On Board of Sydney Institute of Marine Science
+•	On Council of EMBL Australia
+•	Editorial Board of The Conversation
+•	Married to Margot Kearns, Deputy Vice-Chancellor (Academic) of Notre Dame
+•	Has a family blog https://christmasramblings.wordpress.com/ 
+•	Known associates:
+•	Indelle Scott (i.scott@unsw.edu.au) - Executive Assistant
+•	Rachel Abel (r.abel@unsw.edu.au) - General Manager
+•	Sarah Dunbar (s.dunbar@unsw.edu.au) - General Manager also
+•	Plans to socially engineer:
+•	Instate a new Deputy Vice-Chancellor and get them to sing at our party
+•	Invite them to a party, get them drunk
+•	Invite them to an event where singing is socially required (eg a birthday party in a restaurant)
+•	Put more here everyone! It’s in our best interests to find the best possible answer!
+•	[Not sure how far we can go] Tell him a lie directly related to his work/research (e.g. you found a mistake in one of his research papers and you’ll tell it to him after the birthday’s over).
+•	Play the long con: Drop computer science and take a degree in biology, specializing in molecular biology and human genetic diseases. Make a huge breakthrough and get a nobel prize. On your birthday invite him to an event under the pretense of promoting biology in universities, make sure there's a dinner or something. Place him on your table. Halfway through dinner have someone mention its your birthday and have the rest of the table start singing. He will be peer pressured into singing as well. Record it. Use it to blackmail him (I have no idea how) into singing at all your future birthdays.
+•	A recent development - DVC(A) emailed everyone about supporting climate change on sept 20th. This suggests that he does react to social pressure. Might do something to make him freak about reputation possibly?? <- this might hit a little too close to home and could be seen as offensive, so hopefully he doesn’t read these 
 
 
 You'll be assessed on how realistic, specific, simple, effective, non-risky, time consuming (sooner is better than later!) your strategy is, and how likely it is to work.
